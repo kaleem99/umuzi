@@ -1,0 +1,102 @@
+Task 1:
+
+1. I see everything listed in the directory.
+
+recruit@recruit-ThinkCentre-M73:~/Desktop$ ls
+workspace
+
+2. I see all the directories that i am currently in.
+
+recruit@recruit-ThinkCentre-M73:~/Desktop$ pwd
+/home/recruit/Desktop
+
+3. recruit@recruit-ThinkCentre-M73:~/Desktop$ mkdir workspace
+
+recruit@recruit-ThinkCentre-M73:~/Desktop$ ls
+info  workspace
+
+recruit@recruit-ThinkCentre-M73:~/Desktop$ cd workspace/
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ 
+
+4. I see an empty directory with nothing in it.
+
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ 
+
+5. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ touch README.md
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+README.md
+
+6. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ cp README.md CHANGELOG.md
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+CHANGELOG.md  README.md
+
+TASK 2:
+
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ touch exercise.md
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+CHANGELOG.md  cohort.md  exercise.md  README.md  recruits.md  umuzi.md
+
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ mv exercise.md /tmp/
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+CHANGELOG.md  cohort.md  README.md  recruits.md  umuzi.md
+
+recruit@recruit-ThinkCentre-M73:~/Desktop$ cd
+recruit@recruit-ThinkCentre-M73:~$ cd /tmp/
+recruit@recruit-ThinkCentre-M73:/tmp$ ls
+config-err-Pbgapc
+exercise.md
+
+recruit@recruit-ThinkCentre-M73:/tmp$ rm exercise.md 
+recruit@recruit-ThinkCentre-M73:/tmp$ ls
+config-err-Pbgapc
+
+TASK 3:
+
+1. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ touch umuzi.md recruits.md cohort.md
+
+2. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ nano umuzi.md
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ nano recruits.md 
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ nano cohort.md 
+
+3. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ cat cohort.md umuzi.md recruits.md
+ 
+It has been a nice experience working with 
+my new group, coming up with awesome ideas, 
+notes, and picture to create an MVP and a prototype.
+The week went well and we all had fun during the MUB.
+Umuzi is a great place for young 
+people with great talent to learn
+and become successful in a career umuzi 
+offers with no money or experience required
+As you begin the course you will
+learn alot of new things that increases
+your knowledge and experience.
+
+4. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ cat cohort.md umuzi.md recruits.md > summary.md
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ ls
+CHANGELOG.md  cohort.md  README.md  recruits.md  summary.md  umuzi.md
+
+5. recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ cat >> summary.md 
+The End
+recruit@recruit-ThinkCentre-M73:~/Desktop/workspace$ cat summary.md 
+It has been a nice experience working with 
+my new group, coming up with awesome ideas, 
+notes, and picture to create an MVP and a prototype.
+The week went well and we all had fun during the MUB.
+Umuzi is a great place for young 
+people with great talent to learn
+and become successful in a career umuzi 
+offers with no money or experience required
+As you begin the course you will
+learn alot of new things that increases
+your knowledge and experience.
+The End
+
+TASK 4:
+
+
+
+
+
+
